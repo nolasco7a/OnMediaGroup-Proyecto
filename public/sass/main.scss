@@ -1,0 +1,24 @@
+/* Fonts Assets */
+@font-face{
+    font-family: "Futura Extrabold";
+    src: url('../assets/fonts/FuturaStd-ExtraBold.otf');
+}
+@font-face{
+    font-family: "Futura Bold";
+    src: url('../assets/fonts/FuturaStd-Bold.otf');
+}
+@font-face{
+    font-family: "Futura Book";
+    src: url('../assets/fonts/FuturaStd-Book.otf');
+}
+@font-face{
+    font-family: "Futura Heavy";
+    src: url('../assets/fonts/FuturaStd-Heavy.otf');
+}
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Montserrat:300,400,500,600,700&display=swap');
+
+@import 'variables';
+@import 'commons';
+@import 'index';

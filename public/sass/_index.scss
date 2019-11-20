@@ -1,0 +1,159 @@
+.banner{
+    height: 100vh;
+    min-width: 100%;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+    .logo{
+        height: 200px;
+        width: auto;
+        position: absolute;
+        top: 3%;
+        left: 5%;
+        .logo-img{
+            height: 100%;
+            width: auto;
+        }
+    }
+    .banner-img{
+        object-fit: cover;
+        float: inline-end;
+        height: 100%;
+        width: 100%;
+    }
+    .text-content{
+        position: absolute;
+        left: 3%;
+        bottom: 20%;
+        h3{
+            font-family: 'Futura Bold';
+            color: white;
+            font-size: 5.5rem;
+            line-height: .9;
+            
+        }
+        h5{
+            font-family: 'Futura Heavy';
+            color: white;
+            font-size: 1.4rem;  
+            padding-bottom: 1.5rem;
+        }
+        a{
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            padding: .3rem;
+            border: white solid 2px;
+            text-decoration: none;
+            transition: all .5s ease;
+            font-size: 1.6rem;
+            &:hover{
+                text-decoration: none;
+                background: white;
+                color: rgb(44, 44, 44);
+                transition: all .5s ease;
+            }
+        }
+    }
+}
+ h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+ }
+
+ .orange-circle{
+     background: rgb(221, 154, 31);
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     margin-top: 5rem;
+     i{
+        font-size: 4rem;
+        color: white;
+    }
+ }
+.row-counter{
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 1.5rem 0;
+    .count{
+        font-family: 'Futura Bold';
+        font-size: 4.8em;
+        color: white;
+        .underline{
+            width: 45%;
+            height: 10px;
+            background:rgb(221, 154, 31)
+        }
+        .text-counter{
+            font-family: 'Futura Book';
+            text-align: left;
+        }
+     }
+}
+
+.next-events{
+    .hour{
+        background: rgb(221, 154, 31);
+        color: white;
+    }
+    .round-image{
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        overflow: hidden;
+        background-position: center;
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+
+        }
+    }
+    .description{
+        h3{
+            font-family: 'Futura Bold';
+            font-size: 1.4rem;
+        }
+        h5{
+            font-family: 'Futura Heavy';
+            font-size: 1rem;
+        }
+        p{
+            font-family: 'Futura Book';
+            font-size: .75rem;
+        }
+    }
+}
+
+ @media screen and ($extra-small){
+    .text-content{
+        h3{
+            font-size: 3rem !important;
+        }
+        h5{
+            font-size: 1.5rem !important;
+        }
+    }
+
+    .row-counter{
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        padding: 1.5rem 0;
+        .count{
+            font-family: 'Futura Bold';
+            font-size: 2em;
+            color: white;
+            .underline{
+                width: 45%;
+                height: 6px;
+                background:rgb(221, 154, 31)
+            }
+            .text-counter{
+                font-family: 'Futura Book';
+                text-align: left;
+                font-size: 1rem;
+            }
+         }
+    }
+ }
