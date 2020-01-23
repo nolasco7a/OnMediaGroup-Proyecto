@@ -6,19 +6,20 @@
             </div>
             <div class="col-lg-4">
                 <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">INICIO</a>
-                <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">EVENTOS</a>
-                <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">SERVICIOS</a>
+                <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">LENCA SOUND</a>
+                <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">SHOW BUSSINESS</a>
+                <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">HEAVEN MULTIMEDIA</a>
                 <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">SOBRE NOSOTROS</a>
                 <a class="btn btn-link text-white" style="font-size: .75rem; font-widht: 700">CONTÁCTANOS</a>
             </div>
             <div class="col-lg-4">
-                <p class="text-white">¡Siguenos!</p>
+                <p class="text-white">¡Síguenos!</p>
             </div>
         </div>
     </div>
 <div class="text-center m-0 py-1 container d-flex justify-content-center">
         <div class="col-lg-8 offset-lg-2  " style="border-top: solid white 1px">
-                <small class="text-white">Todos los derechos Reservados @php echo(Date('Y')) @endphp</small>
+                <small class="text-white">Todos los derechos Reservados 2020 - Realizado por IdeaWorks @php echo(Date('Y')) @endphp</small>
         </div>
 </div>
 </div>

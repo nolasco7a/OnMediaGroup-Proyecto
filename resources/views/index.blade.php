@@ -14,67 +14,8 @@
     </div>
 </div>
 
-{{-- Seccion por que elegirnos --}}
-<div class="row m-0">
-    <div class="col-lg-4 p-0 m-0">
-        <img src="./assets/images/steve-harvey-wt2tFjoTRcw-unsplash.jpg" class="img-fluid" alt="" srcset="">
-    </div>
-    <div class="col-lg-8 d-flex justify-content-center">
-        <div class="col-lg-8">
-            <h1 class="montserrat-font" style="padding-top: 4rem">¿POR QUE ELEGIRNOS?</h1>
-            <P class="pt-2" style="font-size: .75rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
-                magnam nam, quam hic aspernatur cum, nobis expedita culpa aut dolor vero pariatur nemo aliquam fugit
-                perspiciatis nisi! Quis rerum nostrum mollitia nihil voluptate. Perspiciatis blanditiis tempora eveniet
-                vitae vel debitis commodi qui, nisi eos illum cumque soluta deserunt dicta optio.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, velit dignissimos dolore eum
-                error deserunt adipisci quis nesciunt ipsa esse quae consequuntur perferendis itaque doloribus autem
-                fugiat quas! Quibusdam, enim.
-            </P>
-        </div>
-    </div>
-</div>
-
-{{-- Seccion de servicios/iconos --}}
-<div class="container mt-4" style="min-height: 50vh">
-    <div class="row mt-4">
-        <div class="col-lg-3">
-            <div class="d-flex justify-content-center">
-                <div class="orange-circle d-flex align-items-center justify-content-center">
-                    <i class="fas fa-microphone"></i>
-                </div>
-            </div>
-            <h2 class="text-center">eventos</h2>
-        </div>
-        <div class="col-lg-3">
-            <div class="d-flex justify-content-center">
-                <div class="orange-circle d-flex align-items-center justify-content-center">
-                    <i class="fas fa-video"></i>
-
-                </div>
-            </div>
-            <h2 class="text-center">eventos</h2>
-        </div>
-        <div class="col-lg-3">
-            <div class="d-flex justify-content-center">
-                <div class="orange-circle d-flex align-items-center justify-content-center">
-                    <i class="fas fa-lightbulb"></i>
-                </div>
-            </div>
-            <h2 class="text-center">eventos</h2>
-        </div>
-        <div class="col-lg-3">
-            <div class="d-flex justify-content-center">
-                <div class="orange-circle d-flex align-items-center justify-content-center">
-                    <i class="fas fa-rocket"></i>
-                </div>
-            </div>
-            <h2 class="text-center">eventos</h2>
-        </div>
-    </div>
-</div>
-
 {{-- Seccion contadores --}}
-<div class="d-flex align-items-center" style="height: 50vh">
+<div class="d-flex align-items-center" style="height: 30vh">
     <div class="d-flex align-items-center justify-content-center row-counter">
         <div class="col-lg-2">
             <div class="count text-center">
@@ -107,10 +48,65 @@
     </div>
 </div>
 
+{{-- Seccion por que elegirnos --}}
+<div class="row m-0">
+    <div class="col-lg-4 p-0 m-0">
+        <img src="./assets/images/steve-harvey-wt2tFjoTRcw-unsplash.jpg" class="img-fluid" alt="" srcset="">
+    </div>
+    <div class="col-lg-8 d-flex justify-content-center">
+        <div class="col-lg-8">
+            <h1 class="montserrat-font" style="padding-top: 4rem">¿POR QUE ELEGIRNOS?</h1>
+            <P class="pt-2" style="font-size: .75rem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+                magnam nam, quam hic aspernatur cum, nobis expedita culpa aut dolor vero pariatur nemo aliquam fugit
+                perspiciatis nisi! Quis rerum nostrum mollitia nihil voluptate. Perspiciatis blanditiis tempora eveniet
+                vitae vel debitis commodi qui, nisi eos illum cumque soluta deserunt dicta optio.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, velit dignissimos dolore eum
+                error deserunt adipisci quis nesciunt ipsa esse quae consequuntur perferendis itaque doloribus autem
+                fugiat quas! Quibusdam, enim.
+            </P>
+        </div>
+    </div>
+</div>
+
+{{-- Seccion de servicios/iconos --}}
+<div class="container mt-4 align-items-center" style="min-height: 50vh "    >
+    <div class="row mt-4 ">
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+                <div class="orange-circle d-flex align-items-center justify-content-center">
+                    <i class="fas fa-microphone"></i>
+                </div>
+            </div>
+            <h2 class="text-center">LENCA SOUND</h2>
+        </div>
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+                <div class="orange-circle d-flex align-items-center justify-content-center">
+                    <i class="fas fa-video"></i>
+
+                </div>
+            </div>
+            <h2 class="text-center">HEAVEN MULTIMEDIA</h2>
+        </div>
+        <div class="col-lg-4">
+            <div class="d-flex justify-content-center">
+                <div class="orange-circle d-flex align-items-center justify-content-center">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+            <h2 class="text-center">SHOW BUSSINESS </h2>
+        </div>
+       
+    </div>
+</div>
+
+
+
 {{-- Ultimas Noticias --}}
-<div class="container">
+<div class="container mt-3 align-items-center">
+    <h1 class="montserrat-font" style="padding-top: 4rem">Últimas Noticias</h1>
         <div class="row">
-                <h1 class="montserrat-font" style="padding-top: 4rem">Ultimas Noticias</h1>
+                
                 <div class="col-lg-4 d-flex justify-content-center">
                     <div class="card">
                         <img src="./assets/images/alexander-popov-hTv8aaPziOQ-unsplash.jpg" class="card-img-top" alt="...">
@@ -143,7 +139,7 @@
 
 {{-- Seccion Proximos Eventos --}}
     <div class="container">
-            <h1 class="montserrat-font" style="padding-top: 4rem">Proximos Eventos</h1>
+            <h1 class="montserrat-font" style="padding-top: 4rem">Próximos Eventos</h1>
         <div class="col-lg-6 mt-1">
             <div class="row next-events">
                 <div class="col-lg-2 hour">
