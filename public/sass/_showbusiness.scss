@@ -1,0 +1,54 @@
+.show-business{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/Backgrounds/fondo3.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+
+    .tituloShow{
+        font-size: 2rem;
+        @media (max-width: 320px){
+            font-size: 1.5rem;
+
+        }
+    }
+
+#container5{
+
+    .left{
+        @media(max-width: 425px){
+            margin-top: -13px;
+        }
+    }
+
+    .right{
+
+        @media(max-width: 425px){
+            margin-top: -13px;
+        }
+    }
+
+    @media(max-width: 375px){
+        margin-left: -17px;
+    }
+
+    @media (max-width: 320px){
+
+        margin-left: -52px;
+    }
+}
+
+.text-2{
+    
+    @media(min-width: 768px){
+        font-size: 15px;
+    }
+}

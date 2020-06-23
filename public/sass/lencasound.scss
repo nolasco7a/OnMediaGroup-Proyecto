@@ -1,0 +1,50 @@
+.lencasound{
+
+    margin: 0px;
+    padding: 0px;
+    background-image: url('/assets/images/Backgrounds/slide-3.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.img-lencasoud{
+
+    height: 286px;
+    margin-top: -49px;
+
+    @media (max-width: 425px){
+
+        width: 350px;
+    }
+
+    @media (max-width: 320px){
+
+        width: 300px;
+        margin-left: -20px;
+       
+    }
+}
+
+.msjactualizacion{
+
+    font-family: 'Lato';
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+
+    @media (max-width: 768px){
+
+        font-size: 2rem;
+    }
+    
+    @media (max-width: 425px){
+
+        font-size: 1.5rem;
+    }
+
+
+}

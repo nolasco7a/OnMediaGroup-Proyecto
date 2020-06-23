@@ -10,11 +10,25 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <script src="./js/jquery.counterup.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 
 
+
+
+<script type="text/javascript">
+    $(window).scroll(function(){
+      $('nav').toggleClass('scrolled',$(this).scrollTop() > 100);
+    });
+</script>
 
 
 {{-- mis script --}}
+<script src="js/Carousel.js"></script>
 <script src="./js/main.js"></script>
+
+
+
+

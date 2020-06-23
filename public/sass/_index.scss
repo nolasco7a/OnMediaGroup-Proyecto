@@ -1,159 +1,185 @@
-.banner{
+.inicio{
+    margin: 0px;
+    padding: 0px;
     height: 100vh;
-    min-width: 100%;
-    background-position: center;
-    overflow: hidden;
-    position: relative;
-    .logo{
-        height: 200px;
-        width: auto;
-        position: absolute;
-        top: 3%;
-        left: 5%;
-        .logo-img{
-            height: 100%;
-            width: auto;
-        }
-    }
-    .banner-img{
-        object-fit: cover;
-        float: inline-end;
-        height: 100%;
-        width: 100%;
-    }
-    .text-content{
-        position: absolute;
-        left: 3%;
-        bottom: 20%;
-        h3{
-            font-family: 'Futura Bold';
-            color: white;
-            font-size: 5.5rem;
-            line-height: .9;
-            
-        }
-        h5{
-            font-family: 'Futura Heavy';
-            color: white;
-            font-size: 1.4rem;  
-            padding-bottom: 1.5rem;
-        }
-        a{
-            font-family: 'Montserrat', sans-serif;
-            color: white;
-            padding: .3rem;
-            border: white solid 2px;
-            text-decoration: none;
-            transition: all .5s ease;
-            font-size: 1.6rem;
-            &:hover{
-                text-decoration: none;
-                background: white;
-                color: rgb(44, 44, 44);
-                transition: all .5s ease;
-            }
-        }
-    }
-}
- h1{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-size: 2rem;
- }
+    display: flex;
 
- .orange-circle{
-     background: rgb(221, 154, 31);
-     width: 150px;
-     height: 150px;
-     border-radius: 50%;
-     margin-top: 5rem;
-     i{
-        font-size: 4rem;
-        color: white;
-    }
- }
-.row-counter{
-    background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+footer{
+    align-self: flex-end;
     width: 100%;
-    padding: 1.5rem 0;
-    .count{
-        font-family: 'Futura Bold';
-        font-size: 4.8em;
-        color: white;
-        .underline{
-            width: 45%;
-            height: 10px;
-            background:rgb(221, 154, 31)
-        }
-        .text-counter{
-            font-family: 'Futura Book';
-            text-align: left;
-        }
-     }
+    color: white;
+    position: absolute;
 }
 
-.next-events{
-    .hour{
-        background: rgb(221, 154, 31);
-        color: white;
-    }
-    .round-image{
-        height: 80px;
-        width: 80px;
-        border-radius: 50%;
-        overflow: hidden;
-        background-position: center;
-        img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-
-        }
-    }
-    .description{
-        h3{
-            font-family: 'Futura Bold';
-            font-size: 1.4rem;
-        }
-        h5{
-            font-family: 'Futura Heavy';
-            font-size: 1rem;
-        }
-        p{
-            font-family: 'Futura Book';
-            font-size: .75rem;
-        }
-    }
+.carousel {
+    position: absolute;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size:cover ;
+    background-size: cover;
+    
 }
 
- @media screen and ($extra-small){
-    .text-content{
-        h3{
-            font-size: 3rem !important;
-        }
-        h5{
-            font-size: 1.5rem !important;
-        }
+.carousel-caption{
+    bottom: 500px;
+    position: relative;
+    right: 15%;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+
+    @media(max-width:768px){
+
+        bottom: 410px;
     }
 
-    .row-counter{
-        background: rgba(0, 0, 0, 0.8);
+    
+    
+    
+
+    .parrafo{
         width: 100%;
-        padding: 1.5rem 0;
-        .count{
-            font-family: 'Futura Bold';
-            font-size: 2em;
-            color: white;
-            .underline{
-                width: 45%;
-                height: 6px;
-                background:rgb(221, 154, 31)
-            }
-            .text-counter{
-                font-family: 'Futura Book';
-                text-align: left;
-                font-size: 1rem;
-            }
-         }
+      font-size: 12px;
+      font-family: 'Lato';
+      text-align: center;
+
+       
+      
+
+
     }
- }
+     
+}
+
+.carousel-caption  h5{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    text-align: left;
+    font-weight: bold;
+   
+}
+
+.carousel-caption p{
+    width: 619px;
+    /* margin: auto; */
+    font-size: 19px;
+    line-height: 1.9;
+    text-align: left;
+    font-family: 'Lato';
+    padding-top: 25px;
+    font-weight: normal;
+    
+    @media(max-width: 768px){
+      
+        width: 500px;
+        font-size: 16px;
+
+    }
+   
+}
+
+.separator-neon{
+    width: 72px;
+    height: 5px;
+    position: absolute;
+    -ms-grid-column-align: center;
+    /* justify-self: center; */
+    background: #ffffff;
+    border-radius: 20px;
+    /* padding-top: 4px;*/
+
+ 
+   
+}
+
+.button{
+    text-align: left;
+
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 1.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    font-family: Lato;
+    width: 210px;
+    font-weight: bold;
+
+    
+
+    
+}
+
+.my-4{
+
+    margin-bottom: 5.5rem !important;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 68px;
+    height: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    /* background-color: #ffffff; */
+    background-clip: padding-box;
+    /* border-top: 10px solid transparent; */
+    /* border-bottom: 10px solid transparent; */
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 0.7rem;
+    border: 0.5px solid white;
+
+}
+
+
+
+    .img-slide{
+         
+      
+        @media(max-width: 768px) and (min-width: 320px){
+
+            object-fit: cover;
+        }
+      
+    
+    }
+
+    .carousel-indicators{
+        top: 79%;
+
+        @media (max-width: 320px){
+            top: 72%;
+        }
+    }
+
+    
