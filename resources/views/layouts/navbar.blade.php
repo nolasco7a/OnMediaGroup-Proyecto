@@ -30,15 +30,15 @@
                     </li>
                     
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="https://www.facebook.com/OnMediaGroupHn/">
                         <img src="./assets/images/Iconos/1.png" class="img-fluid" width="40" height="40" alt="" style="margin-top:-9px;"></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">
+                      <a class="nav-link" href="https://www.instagram.com/onmediagrouphn/">
                         <img src="./assets/images/Iconos/2.png" class="img-fluid" width="40" height="40" alt="" style="margin-top:-9px;"></a>
                     </li>
             </ul>
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index">
             <img src="./assets/images/Logos/Logos-Grupo-Onmedia-.png"  class="img-logo" alt="">
             </a>
      </div>

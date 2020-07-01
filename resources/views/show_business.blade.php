@@ -43,7 +43,13 @@
                   
                   @foreach($showbusiness as $item)
                      <li>
-                          <img src="{{Storage::url($item->imagen)}}" alt="">
+
+                            <a data-fslightbox href="{{Storage::url($item->imagen)}}">
+                              <img src="{{Storage::url($item->imagen)}}">
+                            </a>
+                            
+                            
+                                
                      </li>
                   @endforeach
                 
@@ -60,7 +66,9 @@
                     
                     @foreach($showbusiness as $item)
                         <li style="transform: rotate(-90deg);">
-                            <img src="{{Storage::url($item->imagen)}}" alt="">
+                                <a data-fslightbox href="{{Storage::url($item->imagen)}}">
+                                    <img src="{{Storage::url($item->imagen)}}">
+                               </a>
                         </li>
                     @endforeach
                     
@@ -79,6 +87,9 @@
           <h1 style="text-align:center"> ELECTRÓNICA</h1>
       </div>
   </section>
+
+ 
 </body>
+
 
 @endsection

@@ -18,15 +18,10 @@
 
 
 
-<script type="text/javascript">
-    $(window).scroll(function(){
-      $('nav').toggleClass('scrolled',$(this).scrollTop() > 100);
-    });
-</script>
-
 
 {{-- mis script --}}
 <script src="js/Carousel.js"></script>
+<script src="js/fslightbox.js"></script>
 <script src="./js/main.js"></script>
 
 

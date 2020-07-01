@@ -52,13 +52,19 @@
             <ul>
                 
                     <li>
-                        <video src="./assets/videos/video1.mp4" loop controls muted class="video-fluid"></video>
+                       <a data-fslightbox href="./assets/videos/video1.mp4">
+                        <video src="./assets/videos/video1.mp4" mute class="video-fluid"></video>
+                        </a>
                     </li>
                     <li>
-                        <video src="./assets/videos/video2.mp4" loop controls muted class="video-fluid"></video>
+                    <a data-fslightbox href="./assets/videos/video2.mp4">
+                        <video src="./assets/videos/video2.mp4"  mute class="video-fluid"></video>
+                        </a>
                     </li>
                     <li>
-                        <video src="./assets/videos/video3.mp4" loop controls muted class="video-fluid"></video>
+                    <a data-fslightbox href="./assets/videos/video3.mp4">
+                        <video src="./assets/videos/video3.mp4"  mute class="video-fluid"></video>
+                        </a>
                     </li>
               
                 

@@ -21,7 +21,8 @@
                       y  contenidos que logran el impacto que tu marca necesita.</p>
                 
                  <div class="button">
-                    <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                    <!--<button type="button" class="btn btn-outline-light" href="onmedia">CONOCE MÁS</button>-->
+                    <a href="onmedia" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                  </div>   
        </div>
        
@@ -40,7 +41,8 @@
                  ideas creativas diferentes, con mayor efectividad, identiﬁcando los medios 
                  y contenidos que logran el impacto que tu marca necesita.</p>
                  <div class="button">
-                 <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                 <!--<button type="button" class="btn btn-outline-light" href="show_business">CONOCE MÁS</button>-->
+                 <a href="show_business" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                  </div>  
        </div>
           
@@ -56,7 +58,8 @@
                  ideas creativas diferentes, con mayor efectividad, identiﬁcando los medios 
                  y contenidos que logran el impacto que tu marca necesita.</p>
                  <div class="button">
-                 <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                 <!--<button type="button" class="btn btn-outline-light" href="lencasound">CONOCE MÁS</button>-->
+                 <a href="lenca_sound" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                  </div>  
        </div>
     </div>
@@ -90,7 +93,7 @@
              <div class="col-12">
              <div class="row justify-content-center">
                   <h5>ON MEDIA GROUP</h5>
-                    <div  class = "separator-neon" style="margin-top: 14%;"></div>
+                    <div  class = "separator-neon" ></div>
                           <p class="parrafo"> Es una familia de consultores, creativos y desarrolladores, que generan 
                             ideas creativas diferentes, con mayor efectividad, identiﬁcando los medios 
                             y  contenidos que logran el impacto que tu marca necesita.</p>
@@ -119,7 +122,7 @@
              <div class="col-12">
              <div class="row justify-content-center">
                   <h5>SHOW BUSINESS</h5>
-                    <div  class = "separator-neon" style="margin-top: 14%;"></div>
+                    <div  class = "separator-neon" ></div>
                           <p class="parrafo"> Es una familia de consultores, creativos y desarrolladores, que generan 
                             ideas creativas diferentes, con mayor efectividad, identiﬁcando los medios 
                             y  contenidos que logran el impacto que tu marca necesita.</p>
@@ -143,7 +146,7 @@
              <div class="col-12">
              <div class="row justify-content-center">
                   <h5>LENCA SOUND</h5>
-                    <div  class = "separator-neon" style="margin-top: 14%;"></div>
+                    <div  class = "separator-neon" ></div>
                           <p class="parrafo"> Es una familia de consultores, creativos y desarrolladores, que generan 
                             ideas creativas diferentes, con mayor efectividad, identiﬁcando los medios 
                             y  contenidos que logran el impacto que tu marca necesita.</p>
