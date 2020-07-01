@@ -11,7 +11,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block w-100 h-100" alt="...">
+      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block " alt="...">
         <div class="carousel-caption">
                
                <h5>ON MEDIA GROUP</h5>
@@ -31,7 +31,7 @@
 
     
     <div class="carousel-item">
-        <img src="./assets/images/Backgrounds/slide-2.jpg" class=" img-slide d-block w-100 h-100" alt="...">
+        <img src="./assets/images/Backgrounds/slide-2.jpg" class=" img-slide d-block " alt="...">
         <div class="carousel-caption">
                <h5>SHOW BUSINESS</h5>
                <div class="separador">
@@ -48,7 +48,7 @@
           
     </div>
     <div class="carousel-item">
-      <img src="./assets/images/Backgrounds/slide-3.jpg" class="img-slide d-block w-100 h-100" alt="...">
+      <img src="./assets/images/Backgrounds/slide-3.jpg" class="img-slide d-block " alt="...">
       <div class="carousel-caption">
                <h5>LENCA SOUND</h5>
                <div class="separador">
@@ -85,7 +85,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block w-100 h-100" alt="...">
+      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block " alt="...">
         <div class="carousel-caption" style="left:0%; bottom:80vh">
             
            <div class="container">
@@ -114,7 +114,7 @@
 
     
     <div class="carousel-item">
-        <img src="./assets/images/Backgrounds/slide-2.jpg" class=" img-slide d-block w-100 h-100" alt="...">
+        <img src="./assets/images/Backgrounds/slide-2.jpg" class=" img-slide d-block" alt="...">
         <div class="carousel-caption" style="left:0%; bottom:80vh">
 
              <div class="container">
@@ -139,7 +139,7 @@
           
     </div>
     <div class="carousel-item">
-      <img src="./assets/images/Backgrounds/slide-3.jpg" class="img-slide d-block w-100 h-100" alt="...">
+      <img src="./assets/images/Backgrounds/slide-3.jpg" class="img-slide d-block " alt="...">
       <div class="carousel-caption" style="left:0%; bottom:80vh">
               <div class="container"> 
              <div class="row">

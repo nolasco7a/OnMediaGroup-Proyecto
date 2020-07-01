@@ -149,23 +149,26 @@
 
   <section class="logos">
      <div class="container">
-       <div class="row justify-content-center">
-          <div class="col-8">
-              <div class="row justify-content-center">
-                 <div class="col-6">
-                      <div class="row justify-content-center">
-                          <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
-                      </div>
-                 </div>
-                  <div class="col-6">
-                      <div class="row justify-content-center">
-                       <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
-                      </div>
-                  </div>
-              </div>
-          </div>
-       </div>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-3 col-md-6 col-6">
+                            <div class="row justify-content-center">
+                                <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
+                                
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-6 col-6">
+                            <div class="row justify-content-center">
+                                
+                                <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
      </div>
+
   </section>
    
 </body>
