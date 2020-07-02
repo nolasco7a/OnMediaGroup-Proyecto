@@ -53,17 +53,17 @@
                 
                     <li>
                        <a data-fslightbox href="./assets/videos/video1.mp4">
-                        <video src="./assets/videos/video1.mp4" mute class="video-fluid"></video>
+                        <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
                     <li>
                     <a data-fslightbox href="./assets/videos/video2.mp4">
-                        <video src="./assets/videos/video2.mp4"  mute class="video-fluid"></video>
+                        <video src="./assets/videos/video2.mp4"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
                     <li>
                     <a data-fslightbox href="./assets/videos/video3.mp4">
-                        <video src="./assets/videos/video3.mp4"  mute class="video-fluid"></video>
+                        <video src="./assets/videos/video3.mp4"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
               
@@ -83,13 +83,13 @@
                      <div class="containerCarousel " id="container3" style="transform: rotate(90deg);">
                             <ul>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video1.mp4" loop controls muted class="video-fluid"></video>
+                                    <video src="./assets/videos/video1.mp4" loop muted autoplay class="video-fluid"></video>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video2.mp4" loop controls muted class="video-fluid"></video>
+                                    <video src="./assets/videos/video2.mp4" loop  muted autoplay class="video-fluid"></video>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video3.mp4" loop controls muted class="video-fluid"></video>
+                                    <video src="./assets/videos/video3.mp4" loop  muted autoplay class="video-fluid"></video>
                                 </li>
                                 
                                 <img src="./assets/images/previ.png" class="left">
@@ -148,26 +148,20 @@
   </section>
 
   <section class="logos">
-     <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-3 col-md-6 col-6">
-                            <div class="row justify-content-center">
-                                <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
-                                
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-md-6 col-6">
-                            <div class="row justify-content-center">
-                                
-                                <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="container">
+            <div class="row">
+                 <div class="col-6">
+                     <div class="row justify-content-center">
+                         <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
+                     </div>
+                 </div>
+                 <div class="col-6">
+                     <div class="row justify-content-center">
+                         <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
+                     </div>
+                 </div>
             </div>
-     </div>
+        </div>
 
   </section>
    

@@ -11,7 +11,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block " alt="...">
+      <img src="./assets/images/Backgrounds/slide-1_resized.jpg" class="img-slide d-block " alt="...">
         <div class="carousel-caption">
                
                <h5>ON MEDIA GROUP</h5>
@@ -85,7 +85,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="./assets/images/Backgrounds/slide-1.jpg" class="img-slide d-block " alt="...">
+      <img src="./assets/images/Backgrounds/slide-1_resized.jpg" class="img-slide d-block " alt="...">
         <div class="carousel-caption" style="left:0%; bottom:80vh">
             
            <div class="container">
