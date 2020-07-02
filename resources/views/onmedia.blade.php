@@ -83,13 +83,19 @@
                      <div class="containerCarousel " id="container3" style="transform: rotate(90deg);">
                             <ul>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video1.mp4" loop muted autoplay class="video-fluid"></video>
+                                        <a data-fslightbox href="./assets/videos/video1.mp4">
+                                                <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
+                                        </a>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video2.mp4" loop  muted autoplay class="video-fluid"></video>
+                                    <a data-fslightbox href="./assets/videos/video1.mp4">
+                                    <video src="./assets/videos/video2.mp4"  loop muted autoplay class="video-fluid"></video>
+                                    </a>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                    <video src="./assets/videos/video3.mp4" loop  muted autoplay class="video-fluid"></video>
+                                    <a data-fslightbox href="./assets/videos/video1.mp4">
+                                    <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
+                                    </a>
                                 </li>
                                 
                                 <img src="./assets/images/previ.png" class="left">
