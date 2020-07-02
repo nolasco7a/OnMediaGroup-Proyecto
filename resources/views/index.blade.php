@@ -99,7 +99,7 @@
                             y  contenidos que logran el impacto que tu marca necesita.</p>
                       
                       <div class="button">
-                          <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                      <a href="onmedia" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                       </div>   
              </div>
            </div>
@@ -128,7 +128,7 @@
                             y  contenidos que logran el impacto que tu marca necesita.</p>
                       
                       <div class="button">
-                          <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                      <a href="show_business" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                       </div>   
              </div>
            </div>
@@ -152,7 +152,7 @@
                             y  contenidos que logran el impacto que tu marca necesita.</p>
                       
                       <div class="button">
-                          <button type="button" class="btn btn-outline-light">CONOCE MÁS</button> 
+                      <a href="lenca_sound" class="btn btn-outline-light " role="button" aria-pressed="true">CONOCE MÁS</a>
                       </div>   
              </div>
            </div>
