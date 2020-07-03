@@ -47,7 +47,7 @@
          </div>
          </div>
     </section>
-   <!-- <section>
+    <section>
         <div class="containerCarousel d-none d-lg-block" id="container2">
             <ul>
                 
@@ -124,7 +124,7 @@
            </div>
 
         </div>
-  </section>-->
+  </section>
 
   <section class="marca" style="padding-top: 30px">
       <div class="container text-white">
