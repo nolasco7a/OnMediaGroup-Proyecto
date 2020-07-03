@@ -84,7 +84,7 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active" style ="backgrounds-image:url(./assets/images/Backgrounds/azul.jpg)">
       <img src="./assets/images/Backgrounds/azul.jpg" class="img-slide d-block " alt="...">
         <div class="carousel-caption" style="left:0%; bottom:80vh">
             
