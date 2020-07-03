@@ -52,18 +52,23 @@
             <ul>
                 
                     <li>
-                       <a data-fslightbox href="./assets/videos/video1.mp4">
-                        <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
+                       <a data-fslightbox href="{{asset('./assets/videos/video1.mp4')}}">
+                        
+                            <video loop muted autoplay class="video-fluid">
+                                <source src="{{asset('./assets/videos/video1.mp4')}}" type="video/mp4">
+
+                            </video>
+                        </a>
+                     
+                    </li>
+                    <li>
+                    <a data-fslightbox href="{{asset('./assets/videos/video2.mp4')}}">
+                        <video src="{{asset('./assets/videos/video2.mp4')}}"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
                     <li>
-                    <a data-fslightbox href="./assets/videos/video2.mp4">
-                        <video src="./assets/videos/video2.mp4"   loop muted autoplay class="video-fluid"></video>
-                        </a>
-                    </li>
-                    <li>
-                    <a data-fslightbox href="./assets/videos/video3.mp4">
-                        <video src="./assets/videos/video3.mp4"   loop muted autoplay class="video-fluid"></video>
+                    <a data-fslightbox href="{{asset('./assets/videos/video3.mp4')}}">
+                        <video src="{{asset('./assets/videos/video3.mp4')}}"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
               
@@ -83,19 +88,31 @@
                      <div class="containerCarousel " id="container3" style="transform: rotate(90deg);">
                             <ul>
                                 <li style="transform: rotate(-90deg);">
-                                        <a data-fslightbox href="./assets/videos/video1.mp4">
-                                                <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
-                                        </a>
-                                </li>
-                                <li style="transform: rotate(-90deg);">
-                                    <a data-fslightbox href="./assets/videos/video1.mp4">
-                                    <video src="./assets/videos/video2.mp4"  loop muted autoplay class="video-fluid"></video>
+                                                <a data-fslightbox href="{{asset('./assets/videos/video1.mp4')}}">
+                                        
+                                        <video loop muted autoplay class="video-fluid">
+                                            <source src="{{asset('./assets/videos/video1.mp4')}}" type="video/mp4">
+
+                                        </video>
                                     </a>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                    <a data-fslightbox href="./assets/videos/video1.mp4">
-                                    <video src="./assets/videos/video1.mp4"  loop muted autoplay class="video-fluid"></video>
-                                    </a>
+                                <a data-fslightbox href="{{asset('./assets/videos/video2.mp4')}}">
+                        
+                        <video loop muted autoplay class="video-fluid">
+                            <source src="{{asset('./assets/videos/video2.mp4')}}" type="video/mp4">
+
+                        </video>
+                    </a>
+                                </li>
+                                <li style="transform: rotate(-90deg);">
+                                <a data-fslightbox href="{{asset('./assets/videos/video3.mp4')}}">
+                        
+                            <video loop muted autoplay class="video-fluid">
+                                <source src="{{asset('./assets/videos/video3.mp4')}}" type="video/mp4">
+
+                            </video>
+                        </a>
                                 </li>
                                 
                                 <img src="./assets/images/previ.png" class="left">
@@ -157,12 +174,12 @@
         <div class="container">
             <div class="row">
                  <div class="col-6">
-                     <div class="row justify-content-center">
+                     <div class="">
                          <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
                      </div>
                  </div>
                  <div class="col-6">
-                     <div class="row justify-content-center">
+                     <div class="">
                          <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
                      </div>
                  </div>

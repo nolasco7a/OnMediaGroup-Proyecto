@@ -346,7 +346,7 @@ footer {
 .onmedia {
   margin: 0px;
   padding: 0px;
-  background-image: url("/assets/images/Backgrounds/fondo-1.png");
+  background-image: url("../assets/images/Backgrounds/fondo-1.png");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -506,7 +506,7 @@ footer {
 .show-business {
   margin: 0px;
   padding: 0px;
-  background-image: url("/assets/images/Backgrounds/fondo3.jpg");
+  background-image: url("../assets/images/Backgrounds/fondo3.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -595,7 +595,7 @@ footer {
 .portafolio {
   margin: 0px;
   padding: 0px;
-  background-image: url("/assets/images/Backgrounds/fondo-4.jpg");
+  background-image: url("./assets/images/Backgrounds/fondo-4.jpg");
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
