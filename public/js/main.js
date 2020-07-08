@@ -22,7 +22,7 @@ $(document).ready(function() {
         maxHeight: 315,
         distance: 150,
         animationTime: 1000,
-        showTime: 5000,
+        showTime: 6000,
         autoPlay:true
     });
     $('#container3').carousel({
@@ -30,7 +30,7 @@ $(document).ready(function() {
         maxWidth: 210,
         maxHeight:150,
         distance:100,
-        showTime: 5000,
+        showTime: 6000,
         autoPlay:true
     });
 

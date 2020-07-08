@@ -52,23 +52,23 @@
             <ul>
                 
                     <li>
-                       <a data-fslightbox href="{{asset('./assets/videos/video1.mp4')}}">
+                       <a data-fslightbox href="{{asset('./assets/videos/video1_1.mp4')}}">
                         
                             <video loop muted autoplay class="video-fluid">
-                                <source src="{{asset('./assets/videos/video1.mp4')}}" type="video/mp4">
+                                <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">
 
                             </video>
                         </a>
                      
                     </li>
                     <li>
-                    <a data-fslightbox href="{{asset('./assets/videos/video2.mp4')}}">
-                        <video src="{{asset('./assets/videos/video2.mp4')}}"   loop muted autoplay class="video-fluid"></video>
+                    <a data-fslightbox href="{{asset('./assets/videos/video2_1.mp4')}}">
+                        <video src="{{asset('./assets/videos/video2_1.mp4')}}"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
                     <li>
-                    <a data-fslightbox href="{{asset('./assets/videos/video3.mp4')}}">
-                        <video src="{{asset('./assets/videos/video3.mp4')}}"   loop muted autoplay class="video-fluid"></video>
+                    <a data-fslightbox href="{{asset('./assets/videos/video3_1.mp4')}}">
+                        <video src="{{asset('./assets/videos/video3_1.mp4')}}"   loop muted autoplay class="video-fluid"></video>
                         </a>
                     </li>
               
@@ -88,28 +88,28 @@
                      <div class="containerCarousel " id="container3" style="transform: rotate(90deg);">
                             <ul>
                                 <li style="transform: rotate(-90deg);">
-                                                <a data-fslightbox href="{{asset('./assets/videos/video1.mp4')}}">
+                                                <a data-fslightbox href="{{asset('./assets/videos/video1_1.mp4')}}">
                                         
                                         <video loop muted autoplay class="video-fluid">
-                                            <source src="{{asset('./assets/videos/video1.mp4')}}" type="video/mp4">
+                                            <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">
 
                                         </video>
                                     </a>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                <a data-fslightbox href="{{asset('./assets/videos/video2.mp4')}}">
+                                <a data-fslightbox href="{{asset('./assets/videos/video2_1.mp4')}}">
                         
                         <video loop muted autoplay class="video-fluid">
-                            <source src="{{asset('./assets/videos/video2.mp4')}}" type="video/mp4">
+                            <source src="{{asset('./assets/videos/video2_1.mp4')}}" type="video/mp4">
 
                         </video>
                     </a>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                <a data-fslightbox href="{{asset('./assets/videos/video3.mp4')}}">
+                                <a data-fslightbox href="{{asset('./assets/videos/video3_1.mp4')}}">
                         
                             <video loop muted autoplay class="video-fluid">
-                                <source src="{{asset('./assets/videos/video3.mp4')}}" type="video/mp4">
+                                <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
 
                             </video>
                         </a>
@@ -173,12 +173,12 @@
   <section class="logos">
         <div class="container">
             <div class="row">
-                 <div class="col-6">
+                 <div class="col-6" style="text-align: center">
                      <div class="">
                          <img src="./assets/images/Logos/lencasound.png" alt="" class="img-logos">
                      </div>
                  </div>
-                 <div class="col-6">
+                 <div class="col-6" style="text-align: center">
                      <div class="">
                          <img src="./assets/images/Logos/show-business-png.png" alt="" class="img-logos">
                      </div>
