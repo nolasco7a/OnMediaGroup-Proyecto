@@ -52,7 +52,7 @@
             <ul>
                 
                     <li>
-                            <video controls poster="URL" class="video-fluid">
+                            <video controls poster="./assets/images/Backgrounds/img_video1.JPG" class="video-fluid">
                                 <source src="./assets/videos/video1_1.mp4" type="video/mp4">
                                 <source src="movie.ogg" type="video/ogg">
         
@@ -66,7 +66,7 @@
                      
                     </li>
                     <li>
-                            <video controls poster="URL" class="video-fluid">
+                            <video controls poster="./assets/images/Backgrounds/img_video2.JPG" class="video-fluid">
                                         <source src="./assets/videos/video2_1.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg">
                 
@@ -84,7 +84,7 @@
                                 <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
 
                             </video>-->
-                            <video controls poster="URL" class="video-fluid">
+                            <video controls poster="./assets/images/Backgrounds/img_video3.JPG" class="video-fluid">
                                 <source src="./assets/videos/video3_1.mp4" type="video/mp4">
                                 <source src="movie.ogg" type="video/ogg">
         
@@ -110,7 +110,7 @@
                             <li style="transform: rotate(-90deg);">
                                 <!--<video loop muted  controls class="video-fluid">
                                 <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">-->
-                                <video controls poster="URL" class="video-fluid">
+                                <video controls poster="./assets/images/Backgrounds/img_video1.JPG" class="video-fluid">
                                     <source src="./assets/videos/video1_1.mp4" type="video/mp4">
                                     <source src="movie.ogg" type="video/ogg">
         
@@ -121,7 +121,7 @@
                                 <li style="transform: rotate(-90deg);">
                                         <!--<video loop muted  controls class="video-fluid">
                                         <source src="{{asset('./assets/videos/video2_1.mp4')}}" type="video/mp4">-->
-                                        <video controls poster="URL" class="video-fluid">
+                                        <video controls poster="./assets/images/Backgrounds/img_video2.JPG" class="video-fluid">
                                             <source src="./assets/videos/video2_1.mp4" type="video/mp4">
                                             <source src="movie.ogg" type="video/ogg">
                                     </video>
@@ -130,7 +130,7 @@
                                         <!--<video loop muted  controls class="video-fluid">
                                         <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
                                     </video>-->
-                                    <video controls poster="URL" class="video-fluid">
+                                    <video controls poster="./assets/images/Backgrounds/img_video3.JPG" class="video-fluid">
                                 <source src="./assets/videos/video3_1.mp4" type="video/mp4">
                                 <source src="movie.ogg" type="video/ogg">
         
