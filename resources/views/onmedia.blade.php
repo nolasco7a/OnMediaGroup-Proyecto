@@ -52,28 +52,42 @@
             <ul>
                 
                     <li>
-                      
+                            <video controls poster="URL" class="video-fluid">
+                                <source src="./assets/videos/video1_1.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+        
+                            </video>
                         
-                            <video loop muted autoplay controls class="video-fluid">
+                            <!--<video loop muted autoplay controls class="video-fluid">
                                 <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">
 
-                            </video>
+                            </video>-->
                         
                      
                     </li>
                     <li>
+                            <video controls poster="URL" class="video-fluid">
+                                        <source src="./assets/videos/video2_1.mp4" type="video/mp4">
+                                        <source src="movie.ogg" type="video/ogg">
+                
+                                    </video>
                     
-                    <video loop muted autoplay controls class="video-fluid">
+                        <!--<video loop muted  controls class="video-fluid">
                                 <source src="{{asset('./assets/videos/video2_1.mp4')}}" type="video/mp4">
 
-                            </video>
+                            </video>-->
                         
                     </li>
                     <li>
                     
-                    <video loop muted autoplay controls class="video-fluid">
+                           <!--<video loop muted  controls class="video-fluid">
                                 <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
 
+                            </video>-->
+                            <video controls poster="URL" class="video-fluid">
+                                <source src="./assets/videos/video3_1.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+        
                             </video>
                         
                     </li>
@@ -93,22 +107,33 @@
                    <div class="col-12">
                      <div class="containerCarousel " id="container3" style="transform: rotate(90deg);">
                             <ul>
-                                <li style="transform: rotate(-90deg);">
-                                <video loop muted autoplay controls class="video-fluid">
-                                <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">
+                            <li style="transform: rotate(-90deg);">
+                                <!--<video loop muted  controls class="video-fluid">
+                                <source src="{{asset('./assets/videos/video1_1.mp4')}}" type="video/mp4">-->
+                                <video controls poster="URL" class="video-fluid">
+                                    <source src="./assets/videos/video1_1.mp4" type="video/mp4">
+                                    <source src="movie.ogg" type="video/ogg">
+        
+                              </video>
 
                             </video>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                <video loop muted autoplay controls class="video-fluid">
-                                <source src="{{asset('./assets/videos/video2_1.mp4')}}" type="video/mp4">
-
-                            </video>
+                                        <!--<video loop muted  controls class="video-fluid">
+                                        <source src="{{asset('./assets/videos/video2_1.mp4')}}" type="video/mp4">-->
+                                        <video controls poster="URL" class="video-fluid">
+                                            <source src="./assets/videos/video2_1.mp4" type="video/mp4">
+                                            <source src="movie.ogg" type="video/ogg">
+                                    </video>
                                 </li>
                                 <li style="transform: rotate(-90deg);">
-                                <video loop muted autoplay controls class="video-fluid">
-                                <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
-
+                                        <!--<video loop muted  controls class="video-fluid">
+                                        <source src="{{asset('./assets/videos/video3_1.mp4')}}" type="video/mp4">
+                                    </video>-->
+                                    <video controls poster="URL" class="video-fluid">
+                                <source src="./assets/videos/video3_1.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+        
                             </video>
                                 </li>
                                 
